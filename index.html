@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Hub - Your Culinary Destination</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <div class="logo" data-en="Recipe Hub" data-hi="रेसिपी हब">Recipe Hub</div>
+                <ul>
+                    <li><a href="index.html" title="Home">🏠</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="food-btn" title="Food Menu">🍲</a>
+                        <div class="dropdown-content">
+                            <a href="veg.html">
+                                <img src="veg-symbol.webp" alt="Veg">
+                                <span data-en="Veg" data-hi="शाकाहारी">Veg</span>
+                            </a>
+                            <a href="non-veg.html">
+                                <img src="non-veg-symbol.webp" alt="Non-Veg">
+                                <span data-en="Non-Veg" data-hi="मांसाहारी">Non-Veg</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li><a href="about.html" title="About">ℹ️</a></li>
+                    <li><a href="contact.html" title="Contact">📧</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <button id="lang-toggle">हिन्दी</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="headline" data-en="Welcome to Recipe Hub" data-hi="रेसिपी हब में आपका स्वागत है">Welcome to Recipe Hub</h1>
+                <p class="subheadline">
+                    <span data-en="Your " data-hi="आपका ">Your </span>
+                    <span id="typewriter" class="typewriter-text"></span>
+                    <span data-en=" destination for delicious recipes." data-hi=" स्वादिष्ट व्यंजनों के लिए गंतव्य।"> destination for delicious recipes.</span>
+                </p>
+            </div>
+        </section>
+
+        <section id="recipes" class="recipes">
+            <h2 class="section-title" data-en="Featured Recipes" data-hi="विशेष रेसिपी">Featured Recipes</h2>
+            <div class="recipe-grid">
+                <!-- Card 1: Paneer Butter Masala -->
+                <div class="recipe-card">
+                    <a href="paneer-butter-masala.html">
+                        <img src="panner-butter-masala.jpg" alt="Paneer Butter Masala">
+                        <div class="card-content">
+                            <h3 data-en="Paneer Butter Masala" data-hi="पनीर बटर मसाला">Paneer Butter Masala</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Card 2: Butter Chicken -->
+                <div class="recipe-card">
+                    <a href="butter-chicken.html">
+                        <img src="butter-chicken.webp" alt="Butter Chicken">
+                        <div class="card-content">
+                            <h3 data-en="Butter Chicken" data-hi="बटर चिकन">Butter Chicken</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Card 3: Samosa -->
+                <div class="recipe-card">
+                    <a href="samosa.html">
+                        <img src="samosa.webp" alt="Samosa">
+                        <div class="card-content">
+                            <h3 data-en="Samosa" data-hi="समोसा">Samosa</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Card 4: Pav Bhaji -->
+                <div class="recipe-card">
+                    <a href="pav-bhaji.html">
+                        <img src="pav-bhaji.webp" alt="Pav Bhaji">
+                        <div class="card-content">
+                            <h3 data-en="Pav Bhaji" data-hi="पाव भाजी">Pav Bhaji</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p data-en="© 2024 Recipe Hub. All rights reserved." data-hi="© 2024 रेसिपी हब। सर्वाधिकार सुरक्षित।">© 2024 Recipe Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
